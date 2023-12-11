@@ -1,0 +1,839 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Monstserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.topbar {
+  background-color: #2d9596;
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+.top-contact,
+.sosmed {
+  list-style: none;
+  padding: 0;
+}
+
+.topbar li {
+  display: flex;
+}
+
+.topbar li a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.topbar li a i {
+  color: #000;
+  margin-right: 5px;
+}
+
+.topbar .sosmed {
+  display: flex;
+}
+.topbar .sosmed li a {
+  padding: 0 5px;
+}
+.topbar .sosmed li a i {
+  color: #000;
+}
+.topbar ul li a:hover {
+  color: #fff;
+}
+.topbar ul li a i:hover {
+  color: #fff;
+}
+
+#clock {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* topbar end */
+
+/* header start */
+header {
+  padding: 30px 0;
+}
+.brand {
+  display: flex;
+}
+.brand img {
+  margin-right: 10px;
+}
+.brand .brand-name h1 {
+  font-size: 25px;
+  color: #2d9596;
+  text-transform: uppercase;
+}
+
+header .brand .brand-name h3 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.searchbox {
+  width: 100%;
+}
+
+.pembungkus-searchbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .btn.btn-utama {
+  background-color: #2d9596;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* header end */
+
+/* navbar start */
+
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.bg-biru {
+  background-color: #2d9596 !important;
+  color: #000;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #000;
+}
+.active {
+  background-color: #89b9ad;
+  color: #2d9596;
+}
+li.nav-item.active {
+  color: #2d9596;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding: 12px 20px;
+  display: inline-block;
+}
+/* navbar end */
+
+/* carousel start */
+
+/* carousel end */
+
+/* profil start */
+.profil {
+  background-color: #eaeaea;
+  padding: 50px 0 0 0;
+}
+.profil h2 {
+  color: #2d9596;
+  font-size: 28px;
+  font-weight: 500;
+}
+.profil h2,
+.profil h3 {
+  color: #2d9596;
+  font-size: 28px;
+  font-weight: 500;
+}
+.profil h2 {
+  margin-bottom: 30px;
+}
+
+.profil p {
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 28px;
+}
+.profil a.btn.btn-utama {
+  color: #2d9596;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid #2d9596;
+  margin-bottom: 20px;
+}
+.profil a.btn.btn-utama:hover {
+  color: #111;
+  background-color: #2d9596;
+}
+/* profil end */
+
+.section-title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.section-item-title {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.section-title h2 {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 600;
+}
+.section-title h2:after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 3px;
+  background-color: #89b9ad;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* kegiatan start */
+.kegiatan {
+  padding: 50px 0;
+  background-color: #2d9596;
+}
+
+/* kegiatan end */
+
+/* tenaga pendidik start */
+.tenaga-pendidik {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tenaga-pendidik .box-image {
+  width: 100%;
+  margin: auto;
+}
+
+.tenaga-pendidik .section-item-slider {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 15px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 0 15px #999;
+}
+.tenaga-pendidik .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tenaga-pendidik .row .foto-guru {
+  border-radius: 10px;
+}
+.tenaga-pendidik .caption {
+  margin-top: 20px;
+  color: #2d9596;
+  font-size: 18px;
+}
+/* tenaga pendidik end */
+
+/* section galeri start */
+.berita {
+  padding: 50px 0;
+  background-color: #eaeaea;
+}
+.berita .row:first-of-type {
+  margin-bottom: 30px;
+}
+.berita .section-thumbnail {
+  width: 90%;
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+.section-thumbnail img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  object-position: center;
+  opacity: 0.7;
+  transition: 0.2 all;
+}
+.section-thumbnail img:hover {
+  opacity: 1;
+}
+
+.berita .tombol-selengkapnya {
+  text-align: center;
+}
+.berita .btn.btn-more {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #2d9596;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #2d9596;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin: 0 0 30px 0;
+}
+.berita .tombol-selengkapnya .btn.btn-more:hover {
+  background-color: #2d9596;
+  color: #000;
+}
+/* section galeri end */
+
+/* fasilitas start */
+#fasilitas {
+  background-color: #2d9596;
+}
+/* fasilitas end */
+
+/*  kontak start */
+.kontak {
+  padding: 30px 0;
+}
+.kontak .kontak-map .card {
+  height: 15rem;
+}
+.kontak .kontak-map .card iframe {
+  height: 15rem;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: center;
+}
+/*  kontak end */
+
+/* footer start */
+footer {
+  color: #000;
+  background-color: #2d9596;
+  padding: 40px 0 0;
+}
+footer .brand {
+  display: flex;
+}
+
+footer .brand h1 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+footer .tentang {
+  font-size: 14px;
+  line-height: 26px;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+.footer-col .kontak {
+  list-style: none;
+  padding: 0;
+  background-color: #2d9596;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer-col .kontak li {
+  margin: 10px 0;
+}
+.footer-col .kontak i {
+  margin-right: 10px;
+}
+footer .sosmed {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .sosmed li {
+  display: inline-block;
+  margin-right: 15px;
+}
+footer .sosmed li a {
+  color: #000;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 22px;
+  line-height: 48px;
+}
+footer .sosmed li a:hover {
+  color: #eee;
+}
+.footer-col h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer-col .alamat {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 10px 0;
+}
+.footer-col .footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-col .footer-nav li {
+  margin: 10px 0;
+}
+.footer-col .footer-nav a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 28px;
+  transition: all 0.2s;
+}
+.footer-col .footer-nav a:hover {
+  border-bottom: 1px solid #eee;
+}
+.footer-copyright {
+  margin-top: 60px;
+}
+.footer-copyright .container {
+  border-top: 1px solid #000;
+  padding: 20px;
+}
+.footer-copyright h6 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-copyright h6 a {
+  color: #000;
+}
+.footer-copyright h6 a:hover {
+  border-bottom: 1px solid #eee;
+}
+/* footer end */
+
+/* ======= MEDIA QUERRY ======== */
+/* mobile */
+@media only screen and (min-width: 360px) {
+  /* topbar start */
+  .topbar {
+    display: flex;
+    width: 100%;
+  }
+
+  .topbar .top-contact {
+    font-size: 10px;
+    display: flex;
+    align-items: end;
+  }
+  .topbar .top-contact li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topbar .top-contact li a i {
+    display: flex;
+    justify-content: center;
+  }
+  .topbar .row .topbar1 {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .topbar .row .topbar2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .topbar a {
+    font-size: 11px;
+  }
+
+  #clock {
+    font-size: 12px;
+  }
+  /* topbar end */
+
+  /* header start */
+  header {
+    padding: 10px;
+  }
+  header .brand img {
+    width: 120px;
+    height: 90px;
+  }
+  header .brand .brand-name h1 {
+    font-size: 16px !important;
+  }
+  header .brand .brand-name h3 {
+    font-size: 12px !important;
+  }
+  header .searchbox {
+    width: 80%;
+    margin-top: 10px;
+  }
+  header .searchbox .input-group {
+    display: flex;
+    justify-content: center;
+  }
+  header .btn.btn-utama {
+    font-size: 12px;
+  }
+  /* header end */
+
+  /* navbar start */
+  .navbar .collapse .navbar-nav .nav-item {
+    margin-top: 10px;
+  }
+  .navbar .collapse .navbar-nav .nav-item a {
+    font-size: 10px !important;
+  }
+  /* navbar end */
+
+  /* carousel start */
+  #hero-area .carousel .img-carousel {
+    height: 12.2rem;
+  }
+  /* carousel end */
+
+  /* kegiatan start */
+  .kegiatan .section-body .table {
+    width: 100%;
+    margin: auto;
+  }
+  /* kegiatan end */
+
+  /* profil start */
+  .profil .video-yt {
+    width: 330px;
+    height: 200px;
+  }
+  .profil p {
+    font-size: 11px;
+  }
+  .profil .row .btn {
+    font-size: 10px;
+  }
+  .profil .deskripsi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .profil .deskripsi p {
+    font-size: 13px;
+  }
+  .profil .deskripsi a {
+    margin: 0;
+    margin-top: 10px;
+  }
+  /* profil end */
+
+  /* guru start */
+  .tenaga-pendidik .box-image {
+    width: 80%;
+  }
+
+  /* guru end */
+
+  /* galeri start */
+
+  .berita .tombol-selengkapnya {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* berita end */
+
+  /* tenaga pendidik start */
+  .section-item-slider {
+    width: 80%;
+  }
+
+  /* tenaga pendidik end */
+
+  /* kontak start */
+  .kontak .row .kontak-pesan .form-group {
+    margin-top: 20px;
+  }
+  .kontak .row .kontak-pesan .form-group .col-form-label {
+    font-size: 12px;
+  }
+  /* kontak end */
+
+  /* footer start */
+  footer .footer-col .brand h1 {
+    font-size: 15px;
+  }
+  footer .footer-col .sosmed a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+  }
+  footer .footer-col h2 {
+    margin-top: 12px;
+  }
+
+  footer .tentang,
+  footer .footer-col .alamat,
+  footer .footer-col .kontak,
+  footer .footer-col .footer-nav a,
+  footer .footer-copyright h6 {
+    font-size: 12px;
+  }
+  /* footer end */
+}
+/* tablet */
+@media only screen and (min-width: 768px) {
+  /* topbar start */
+  .topbar {
+    width: 100%;
+  }
+  .topbar .row a {
+    font-size: 14px;
+  }
+  .topbar .row .topbar1 {
+    width: 80%;
+    display: flex;
+  }
+  .topbar .row .topbar1 li a {
+    display: flex;
+  }
+  .topbar .row .topbar2 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #clock {
+    font-size: 14px;
+  }
+  /* topbar end */
+
+  /* header start */
+  header .brand .brand-name h1 {
+    font-size: 18px !important;
+  }
+  header .brand .brand-name h3 {
+    font-size: 14px !important;
+  }
+  /* header end */
+
+  /* navbar start */
+  .navbar .collapse .navbar-nav .nav-item a {
+    font-size: 12px !important;
+  }
+  /* navbar end */
+
+  #hero-area .carousel .img-carousel {
+    height: 25rem;
+  }
+  /* carousel end */
+
+  /* kegiatan start */
+  .kegiatan .section-body .table {
+    width: 80%;
+    margin: auto;
+  }
+  /* kegiatan end */
+
+  /* profil start */
+  .profil .row .video-yt {
+    height: 220px;
+  }
+  .profil p {
+    font-size: 12px;
+  }
+  .profil .row .btn {
+    font-size: 11px;
+  }
+  /* profil end */
+
+  /* tenaga pendidik start */
+  .section-item-slider {
+    width: 40%;
+  }
+
+  .tenaga-pendidik .box-image {
+    width: 100%;
+  }
+
+  /* tenaga pendidik end */
+
+  /* berita start */
+
+  /* berita end */
+
+  /* kontak start */
+  .kontak .row .kontak-pesan .form-group {
+    font-size: 14px;
+  }
+  .kontak .row .kontak-pesan .form-group .col-form-label {
+    font-size: 14px;
+  }
+  /* kontak end */
+
+  /* footer start */
+  footer .footer-col .brand h1 {
+    font-size: 16px;
+  }
+  footer .footer-col .sosmed a {
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 14px;
+  }
+  footer .footer-col h2 {
+    margin-top: 5px;
+  }
+
+  footer .tentang,
+  footer .footer-col .alamat,
+  footer .footer-col .kontak,
+  footer .footer-col .footer-nav a,
+  footer .footer-copyright h6 {
+    font-size: 13px;
+  }
+  /* footer end */
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) {
+  /* topbar start */
+  .topbar .row a {
+    font-size: 16px;
+  }
+  .topbar .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .topbar .row .topbar1 {
+    width: 80%;
+  }
+  .topbar .row .topbar2 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+
+  #clock {
+    font-size: 17px;
+  }
+  /* topbar end */
+
+  /* header start */
+  header .row {
+    width: 100%;
+  }
+
+  header .searchbox {
+    width: 100%;
+  }
+  header .brand .brand-name h1 {
+    font-size: 24px !important;
+  }
+  header .brand .brand-name h3 {
+    font-size: 18px !important;
+  }
+  /* header end */
+
+  /* navbar start */
+  .navbar .collapse .navbar-nav .nav-item {
+    margin-top: 0;
+  }
+  .navbar .collapse .navbar-nav .nav-item a {
+    font-size: 16px !important;
+  }
+  /* navbar end */
+
+  #hero-area .carousel .img-carousel {
+    height: 31rem;
+  }
+  /* carousel end */
+
+  /* kegiatan start */
+  .kegiatan .section-body .table {
+    width: 70%;
+    margin: auto;
+  }
+  /* kegiatan end */
+
+  /* profil start */
+  .profil .video-yt {
+    width: 500px;
+    height: 300px;
+  }
+  .profil p {
+    font-size: 14px;
+  }
+  .profil .row .btn {
+    font-size: 14px;
+  }
+  /* profil end */
+
+  /* tenaga pendidik start */
+  .section-item-slider {
+    width: 30%;
+  }
+
+  /* tenaga pendidik end */
+
+  /* kontak start */
+  .kontak .row .kontak-pesan .form-group {
+    margin-top: 0;
+  }
+  .kontak .row .kontak-pesan .form-group .col-form-label {
+    font-size: 18px;
+  }
+  /* kontak end */
+
+  /* footer start */
+  footer .footer-col .brand h1 {
+    font-size: 22px;
+  }
+  footer .footer-col .sosmed a {
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    font-size: 20px;
+  }
+  footer .footer-col h2 {
+    margin-top: 0;
+  }
+
+  footer .tentang,
+  footer .footer-col .alamat,
+  footer .footer-col .kontak,
+  footer .footer-col .footer-nav a,
+  footer .footer-copyright h6 {
+    font-size: 15px;
+  }
+  /* footer end */
+}
