@@ -318,10 +318,10 @@ li.nav-item.active {
   padding: 30px 0;
 }
 .kontak .kontak-map .card {
-  height: 15rem;
+  height: 20rem;
 }
 .kontak .kontak-map .card iframe {
-  height: 15rem;
+  height: 20rem;
   border-radius: 6px;
   object-fit: cover;
   object-position: center;
